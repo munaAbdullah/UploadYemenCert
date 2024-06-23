@@ -173,7 +173,7 @@ function App() {
             return (
               <section className='py-1 container d-flex align-items-center justify-content-center'>
                 <div className="card" style={{ width: '55rem', height: '60rem' }}>
-                  <object type="application/pdf" data={`https://ipfs.filebase.io/ipfs/${cert.fileHash}`} width="100%" height="400" style={{ width: '55rem', height: '55rem' }}>No Support</object>
+                  <img src={`https://ipfs.filebase.io/ipfs/${cert.fileHash}`} width="50%" height="100%" style={{ width: '55rem', height: '55rem' }}></img>
                   <div className="card-body">
                     <h5 className="card-title">{cert.fileName}</h5>
                     <a href={`https://ipfs.filebase.io/ipfs/${cert.fileHash}`} target="_blank" rel="noopener noreferrer">https://ipfs.filebase.io/ipfs/{cert.fileHash}</a>
