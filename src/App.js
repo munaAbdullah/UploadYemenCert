@@ -130,7 +130,7 @@ function App() {
       <section className='bg-dark text-light text-center text-sm-start py-4'>
         <div className='container'>
           <div className='d-flex flex-row justify-content-between '>
-            <h1>Yemen<span className='display-5 text-success align-self-start fw-bold'> Certificate Uploading</span><p className='py-3 lead align-self-start '>Uploading Certificatek to Ipfs then the hash store in blockchain by smart contract </p></h1>
+            <h1>Yemen<span className='display-5 text-success align-self-start fw-bold'> Certificate Uploading</span><p className='py-3 lead align-self-start '>Uploading Certificate to Ipfs then the hash store in blockchain by smart contract </p></h1>
             <img className=' img-fluid w-40 d-sm-block align-self-end' src='images (10).jfif'></img>
           </div>
         </div>
